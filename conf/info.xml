@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon version="0.2">
+	<title xml:lang="ko">Font Awesome 로드 애드온</title>
+	<description>아이콘 웹폰트인 Font Awesome을 불러옵니다.</description>
+	<version>4.2.0</version>
+	<date>2014-09-12</date>
+	<author email_address="m@ake.kr" link="http://ake.kr/">
+		<name>Baek Jin Hu</name>
+	</author>
+	<extra_vars>
+		<var name="fa_usecdn" type="select">
+			<title>CDN 사용하기</title>
+			<description>트래픽을 절감해주며 아주 약간의 속도 향상 체감을 느낄 수 있습니다. 그렇지만 웹폰트를 불러오는 시간으로 인하여 한국 인터넷 환경에서는 권장하지 않습니다.</description>
+			<options value="disable">
+				<title>적용 안함(기본)</title>
+			</options>
+			<options value="enable">
+				<title>적용하기</title>
+			</options>
+		</var>
+		<var name="fa_set_dev" type="select">
+			<title>비압축 CSS 사용하기</title>
+			<description>압축되지 않은 css를 불러옵니다. 네트워크 전송량이 약간 증가합니다. Font Awesome의 css 파일을 수정할 일이 있을때 사용합니다.</description>
+			<options value="disable">
+				<title>적용 안함(기본)</title>
+			</options>
+			<options value="enable">
+				<title>적용하기</title>
+			</options>
+		</var>
+	</extra_vars>
+</addon> 
